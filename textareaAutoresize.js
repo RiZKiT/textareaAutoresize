@@ -1,17 +1,17 @@
 **
  * Textarea Autoresize
  *
- *	examples:
- * 	// you don't need onload if script runs at the end of the page or inside another event
- * 	window.onload = function() {
- *		textareaAutoresize(); // default: 'textarea', simple selector for best compatibility with old browsers
- *		textareaAutoresize(textarea); // element
- *		textareaAutoresize(document.getElementsByTagName('textarea')); // element collection
- *		textareaAutoresize('textarea'); // simple selector, not compatible with all browsers
- *		textareaAutoresize('form > textarea[placeholder]'); // complex selector, not compatible with all browsers
- *		textareaAutoresize($(selector)); // jQuery / MooTools
- *		textareaAutoresize($$(selector)); // MooTools
- *	}
+ *  examples:
+ *  // you don't need onload if script runs at the end of the page or inside another event
+ *  window.onload = function() {
+ *  	textareaAutoresize(); // default: 'textarea', simple selector for best compatibility with old browsers
+ *	textareaAutoresize(textarea); // element
+ *	textareaAutoresize(document.getElementsByTagName('textarea')); // element collection
+ *	textareaAutoresize('textarea'); // simple selector, not compatible with all browsers
+ *	textareaAutoresize('form > textarea[placeholder]'); // complex selector, not compatible with all browsers
+ *	textareaAutoresize($(selector)); // jQuery / MooTools
+ *	textareaAutoresize($$(selector)); // MooTools
+ *  }
  *
  *  pros:
  *  - works with complex textarea styles and no problems mit html entities,
@@ -20,7 +20,7 @@
  *  - no framework dependencies
  *
  *  cons:
- *  - height animation via css transition isn't possible with this resize implementation (afaik)
+ *  - height animation via css transition isn´t possible with this resize implementation (afaik)
  *
  *  info:
  *  - compatibility: depending of the selector used, the more complex, the less IE
