@@ -4,7 +4,7 @@
  *  examples:
  *  // you don't need onload if script runs at the end of the page or inside another event
  *  window.onload = function() {
- *  	textareaAutoresize(); // default: 'textarea', simple selector for best compatibility with old browsers
+ *	textareaAutoresize(); // default: 'textarea', simple selector for best compatibility with old browsers
  *	textareaAutoresize(textarea); // element
  *	textareaAutoresize(document.getElementsByTagName('textarea')); // element collection
  *	textareaAutoresize('textarea'); // simple selector, not compatible with all browsers
@@ -20,7 +20,7 @@
  *  - no framework dependencies
  *
  *  cons:
- *  - height animation via css transition isn´t possible with this resize implementation (afaik)
+ *  - height animation via css transition isnt possible with this resize implementation (afaik)
  *
  *  info:
  *  - compatibility: depending of the selector used, the more complex, the less IE
@@ -30,11 +30,11 @@
  *
  *  inspired by:
  *  - http://phaistonian.pblogs.gr/expanding-textareas-the-easy-and-clean-way.html
- * 	- http://chuvash.eu/2011/12/14/the-cleanest-auto-resize-for-a-textarea/
+ *  - http://chuvash.eu/2011/12/14/the-cleanest-auto-resize-for-a-textarea/
  *
- * 	@author	Aicke Schulz <aicke.schulz@gmail.com>
+ *  @author  Aicke Schulz <aicke.schulz@gmail.com>
  *
- * 	@param selectorOrElements [object|string|null]
+ *  @param selectorOrElements [object|string|null]
  */
 var textareaAutoresize = function(selectorOrElements){
 
