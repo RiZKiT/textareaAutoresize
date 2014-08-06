@@ -1,4 +1,4 @@
-**
+/**
  * Textarea Autoresize
  *
  *  examples:
